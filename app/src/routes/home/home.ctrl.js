@@ -16,7 +16,7 @@ const output = {
 
 
 const users = {
-  id : ["woorimIT", "나개발", "김팀장"],
+  id : ["qwer", "나개발", "김팀장"],
   psword: ["1234","1234","123456"],
 };
 
