@@ -13,8 +13,13 @@ const id = document.querySelector("#id"),
       psword: psword.value,
     };
 
-    //서버에 전달 fetch
-    //fetch()
 
-    console.log(req);
+    fetch("/login", {
+      method: "POST",
+      headers: {
+        "Content-Type" : "application/json",
+      },
+      body : JSON.stringify(req)
+    });
+
   }
